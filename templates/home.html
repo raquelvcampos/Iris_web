@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detector de Flores</title>
+  </head>
+  <body bgcolor=#9370DB>
+    <center>
+      <h1>DETECTOR DE FLORES DO GÊNERO IRIS</h1>
+      <p>
+        Dataset utilizado:
+        <a href="https://archive.ics.uci.edu/ml/datasets/iris"
+          >Iris DataSet by UCIrvine</a
+        >
+      </p>
+
+      <form method="POST" action="{{url_for('home')}}">
+        <b>
+          Comprimento da sépala em cm :
+          <input type="text" , name="a" , placeholder="comprimento da sépala
+" />
+          <br /><br />
+          Largura da sépala em cm:
+          <input type="text" , name="b" , placeholder="largura da sépala" />
+          <br /><br />
+          Comprimento da pétala em cm :
+          <input type="text" , name="c" , placeholder="comprimento da pétala" />
+          <br /><br />
+          Largura da pétala em cm :
+          <input type="text" , name="d" , placeholder="largura da pétala" />
+          <br /><br /><br
+        /></b>
+        <input type="submit" , value="Resultado"/>
+        <br />
+      </form>
+      <br />
+      <img src="static\flower1.jpg" alt="flower" />
+      <p> Aluna: Raquel Campos P4</p>
+    </center>
+  </body>
+</html>
